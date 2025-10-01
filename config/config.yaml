@@ -1,0 +1,17 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+database:
+  sqlite_path: "./Storage/users.db"
+
+kafka:
+  brokers:
+    - "localhost:9092"
+  topic: "connect4-analytics"
+
+game:
+  matchmaking_timeout_seconds: 10
+  reconnect_timeout_seconds: 30
+  board_rows: 6
+  board_columns: 7
