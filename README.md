@@ -5,7 +5,6 @@ A web-based implementation of the classic Connect 4 game with a Go backend and P
 ## Prerequisites
 
 - Go 1.16 or higher
-- Python 3.6 or higher
 - Git
 
 ## Project Structure
